@@ -20,7 +20,7 @@ elixir.extend("angulartemplatecache", function(module, from, to, wrap) {
 
         gulp.task(taskName, function() {
             gulp.src(from)
-                .pipe(templateCache(module}))
+                .pipe(templateCache(module))
                 .pipe(gulp.dest(to));
         });
 
